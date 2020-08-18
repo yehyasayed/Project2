@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*------------------------------------------------------------------------ genral ------------------------------------------------------------------------------*/
+.div1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    width: 755px;
+    height: 755px;
+    position: relative;
+}
+
+.div3{
+    width: 755px;
+    height: 755px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.span{
+    position: absolute;
+    width: 5.6px;
+    height: 70px;
+    left:50%;
+    top: 0;
+    background-color: rgba(226, 224, 224, 0.705);
+}
+.s00,.s05,.s10,.s15,.s20,.s25,.s30,.s35,.s40,.s45,.s50,.s55
+{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.line1{
+    z-index: 3;
+    position: absolute;
+    left: 49.8%;
+    width: 4px;
+    height: 350px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 90% 90% 0 0;
+    Animation : sec    43200s ;
+    animation-iteration-count: infinite; 
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.line2{
+    z-index: 2;
+    position: absolute;
+    left: 49.8%;
+    width: 4px;
+    height: 420px;
+    background-image: url(rrrr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 90% 90% 0 0;
+    Animation :  sec   3600s ;
+    animation-iteration-count: infinite; 
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.line3{
+    z-index: 1;
+    position: absolute;
+    left: 49.8%;
+    width: 4px;
+    height: 520px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 80% 80% 0 0;
+    Animation :  sec   60s ;
+    animation-iteration-count: infinite; 
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+p{
+    position: absolute;
+    left:240px;
+    top:585px;
+    color: rgb(255, 0, 0);
+    font-size: 45px;
+    font-family: cursive;
+    word-spacing: -1px;
+    text-shadow: 4px 4px black;
+}
+
+@keyframes sec {
+    0%             {  transform: rotate(0deg);     }
+    1.66666666667% {  transform: rotate(6deg);     }
+    3.33333333334% {  transform: rotate(12deg);    }
+    5%             {  transform: rotate(18deg);    }
+    6.66666666668% {  transform: rotate(24deg);    }
+    8.33333333335% {  transform: rotate(30deg);    }
+    10%            {  transform: rotate(36deg);    }
+    11.6666666667% {  transform: rotate(42deg);    }
+    13.3333333334% {  transform: rotate(48deg);    }
+    15%            {  transform: rotate(54deg);    }
+    16.6666666667% {  transform: rotate(60deg);    }
+    18.3333333334% {  transform: rotate(66deg);    }
+    20%            {  transform: rotate(72deg);    }
+    21.6666666667% {  transform: rotate(78deg);    }
+    23.3333333334% {  transform: rotate(84deg);    }
+    25%            {  transform: rotate(90deg);    }
+    26.6666666667% {  transform: rotate(96deg);    }
+    28.3333333334% {  transform: rotate(102deg);   }
+    30%            {  transform: rotate(108deg);   }
+    31.6666666667% {  transform: rotate(114deg);   }
+    33.3333333334% {  transform: rotate(120deg);   }
+    35%            {  transform: rotate(126deg);   }
+    36.6666666667% {  transform: rotate(132deg);   }
+    38.3333333334% {  transform: rotate(138deg);   }
+    40%            {  transform: rotate(144deg);   }
+    41.6666666668% {  transform: rotate(150deg);   }
+    43.3333333334% {  transform: rotate(156deg);   }
+    45%            {  transform: rotate(162deg);   }
+    46.6666666668% {  transform: rotate(168deg);   }
+    48.3333333334% {  transform: rotate(174deg);   }
+    50%            {  transform: rotate(180deg);   }
+    51.66666666667%{  transform: rotate(186deg);   }
+    53.33333333334%{  transform: rotate(192deg);   }
+    55%            {  transform: rotate(198deg);   }
+    56.66666666668%{  transform: rotate(204deg);   }
+    58.33333333335%{  transform: rotate(210deg);   }
+    60%            {  transform: rotate(216deg);   }
+    61.6666666667% {  transform: rotate(222deg);   }
+    63.3333333334% {  transform: rotate(228deg);   }
+    65%            {  transform: rotate(234deg);   }
+    66.6666666667% {  transform: rotate(240deg);   }
+    68.3333333334% {  transform: rotate(246deg);   }
+    70%            {  transform: rotate(252deg);   }
+    71.6666666667% {  transform: rotate(258deg);   }
+    73.3333333334% {  transform: rotate(264deg);   }
+    75%            {  transform: rotate(270deg);   }
+    76.6666666667% {  transform: rotate(276deg);   }
+    78.3333333334% {  transform: rotate(282deg);   }
+    80%            {  transform: rotate(288deg);   }
+    81.6666666667% {  transform: rotate(294deg);   }
+    83.3333333334% {  transform: rotate(300deg);   }
+    85%            {  transform: rotate(306deg);   }
+    86.6666666667% {  transform: rotate(312deg);   }
+    88.3333333334% {  transform: rotate(318deg);   }
+    90%            {  transform: rotate(324deg);   }
+    91.6666666668% {  transform: rotate(330deg);   }
+    93.3333333334% {  transform: rotate(336deg);   }
+    95%            {  transform: rotate(342deg);   }
+    96.6666666668% {  transform: rotate(348deg);   }
+    98.3333333334% {  transform: rotate(354deg);   }
+    100%           {  transform: rotate(360deg);   }
+    
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.s00{   transform: rotate(0deg);    left: 49.7%;     top: -0.5px;       }
+.s01{   transform: rotate(6deg);    left: 54.4%;     top: 2px;          }
+.s02{  transform:  rotate(12deg);   left: 59.1%;     top: 7.5px;        }
+.s03{  transform:  rotate(18deg);   left: 63.7%;     top: 16.5px;       }
+.s04{   transform: rotate(24deg);   left: 68.1%;     top: 29px;         }
+.s05{   transform: rotate(30deg);   left: 71.4%;     top: 44px;         }
+.s06{   transform: rotate(36deg);   left: 76.4%;     top: 65px;         }
+.s07{   transform: rotate(42deg);   left: 80%;       top: 88px;         }
+.s08{   transform: rotate(48deg);   left: 83.4%;     top: 113.5px;      }
+.s09{   transform: rotate(54deg);   left: 86.4%;     top: 141px;        }
+.s10{   transform: rotate(60deg);   left: 87.3%;     top: 163.5px;      }
+.s11{   transform: rotate(66deg);   left: 91.1%;     top: 203.5px;      }
+.s12{   transform: rotate(72deg);   left: 92.8%;     top: 237px;        }
+.s13{   transform: rotate(78deg);   left: 94.1%;     top: 271.5px;      }
+.s14{   transform: rotate(84deg);   left: 94.8%;     top: 307px;        }
+.s15{   transform: rotate(90deg);   left: 93.1%;     top: 327.5px;      }
+.s16{   transform: rotate(96deg);   left: 94.7%;     top: 379px;      }
+.s17{   transform: rotate(102deg);  left: 94%;       top: 414px;        }
+.s18{   transform: rotate(108deg);  left: 92.8%;     top: 448px;        }
+.s19{   transform: rotate(114deg);  left: 91.1%;     top: 482.5px;        }
+.s20{   transform: rotate(120deg);  left: 87.3%;     top: 492px;        }
+.s21{   transform: rotate(126deg);  left: 86.3%;     top: 544px;        }
+.s22{   transform: rotate(132deg);  left: 83.5%;     top: 572px;        }
+.s23{   transform: rotate(138deg);  left: 80.1%;     top: 598px;        }
+.s24{   transform: rotate(144deg);  left: 76.4%;     top: 620px;        }
+.s25{   transform: rotate(150deg);  left: 71.4%;     top: 612px;        }
+.s26{   transform: rotate(156deg);  left: 68.1%;     top: 655.5px;      }
+.s27{   transform: rotate(162deg);  left: 63.8%;     top: 669px;        }
+.s28{   transform: rotate(168deg);  left: 59.1%;     top: 678px;        }
+.s29{   transform: rotate(174deg);  left: 54.4%;     top: 684px;        }
+.s30{   transform: rotate(180deg);  left: 49.7%;     top: 655px;        }
+.s31{   transform: rotate(186deg);  left: 44.9%;     top: 684px;        }
+.s32{   transform: rotate(192deg);  left: 40.2%;     top: 678px;        }
+.s33{   transform: rotate(198deg);  left: 35.6%;     top: 669px;        }
+.s34{   transform: rotate(204deg);  left: 31.2%;     top: 656px;        }
+.s35{   transform: rotate(210deg);  left: 28%;       top: 612px;        }
+.s36{   transform: rotate(216deg);  left: 23%;       top: 620px;        }
+.s37{   transform: rotate(222deg);  left: 19.3%;     top: 598px;        }
+.s38{   transform: rotate(228deg);  left: 16%;     top: 572px;          }
+.s39{   transform: rotate(234deg);  left: 12.9%;     top: 544px;        }
+.s40{   transform: rotate(240deg);  left: 12%;     top: 492px;          }
+.s41{   transform: rotate(246deg);  left: 8.1%;      top: 483px;        }
+.s42{   transform: rotate(252deg);  left: 6.5%;      top: 449px;        }
+.s43{   transform: rotate(258deg);  left: 5.2%;      top: 414.5px;      }
+.s44{   transform: rotate(264deg);  left: 4.4%;      top: 379px;        }
+.s45{   transform: rotate(270deg);  left: 6.2%;      top: 327.5px;      }
+.s46{   transform: rotate(276deg);  left: 4.4%;      top: 307px;        }
+.s47{   transform: rotate(282deg);  left: 5.2%;      top: 271.5px;      }
+.s48{   transform: rotate(288deg);  left: 6.5%;      top: 237px;      }
+.s49{   transform: rotate(294deg);  left: 8%;        top: 203px;        }
+.s50{   transform: rotate(300deg);  left: 12%;       top: 163.5px;        }
+.s51{   transform: rotate(306deg);  left: 12.8%;     top: 140px;        }
+.s52{   transform: rotate(312deg);  left: 15.9%;     top: 113px;        }
+.s53{   transform: rotate(318deg);  left: 19.3%;     top: 88px;         }
+.s54{   transform: rotate(324deg);  left: 23%;       top: 65px;         }
+.s55{   transform: rotate(330deg);  left: 28%;       top: 43.5px;         }
+.s56{   transform: rotate(336deg);  left: 31.1%;     top: 29px;         }
+.s57{   transform: rotate(342deg);  left: 35.7%;     top: 17px;         }
+.s58{   transform: rotate(348deg);  left: 40.2%;     top: 7.5px;        }
+.s59{   transform: rotate(354deg);  left: 44.9%;     top: 2px;          }
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
